@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+    <PackageId>BitGo.Net</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Burak Öner</Authors>
+    <Company>Burak Öner</Company>
+    <Product>BitGo.Net</Product>
+    <Description>BitGo.Net is a .Net wrapper for the BitGo API v2. It includes all features that the API provides.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/burakoner/BitGo</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/burakoner/BitGo</RepositoryUrl>
+    <PackageTags>BitGo BitGo.Net C# .Net CryptoCurrency Wallet Exchange Rest API Wrapper</PackageTags>
+    <PackageReleaseNotes>Version 1.0.0 - 23 Feb 2020
+First Release</PackageReleaseNotes>
+    <NeutralLanguage>en</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Objects\Express\" />
+    <Folder Include="Objects\Federation\" />
+    <Folder Include="Objects\Webhook\" />
+    <Folder Include="Objects\WalletShare\" />
+    <Folder Include="Objects\SendLabel\" />
+    <Folder Include="Objects\Policy\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Icon\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
