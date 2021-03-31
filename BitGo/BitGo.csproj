@@ -8,6 +8,10 @@
     <Authors>Burak Öner</Authors>
     <Company>Burak Öner</Company>
     <Product>BitGo.Net</Product>
+    <Version>2.1.0</Version>
+    <FileVersion>2.1.0.0</FileVersion>
+    <PackageVersion>2.1.0</PackageVersion>
+    <AssemblyVersion>2.1.0.0</AssemblyVersion>
     <Description>BitGo.Net is a .Net wrapper for the BitGo API v2. It includes all features that the API provides.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/burakoner/BitGo</PackageProjectUrl>
@@ -15,13 +19,15 @@
     <PackageIconUrl />
     <RepositoryUrl>https://github.com/burakoner/BitGo</RepositoryUrl>
     <PackageTags>BitGo BitGo.Net C# .Net CryptoCurrency Wallet Exchange Rest API Wrapper</PackageTags>
-    <PackageReleaseNotes>Version 1.0.0 - 23 Feb 2020
-First Release</PackageReleaseNotes>
+    <PackageReleaseNotes>
+      Version 2.1.0 - 31 Mar 2021
+      - Updated dependencies
+    </PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
   <ItemGroup>
